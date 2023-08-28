@@ -72,11 +72,13 @@
 
           <div class="contact-form__teachers">
             <h4 class="contact-form__subtitle">Choose a teacher</h4>
-            <div class="contact-form__select-group teacher-select">
+            <div
+              class="contact-form__select-group teacher-select js-contact-radio-select"
+            >
               <label class="teacher-select__label">
                 Maria
                 <input
-                  class="radio-input"
+                  class="radio-input js-contact-radio"
                   type="radio"
                   name="teacher-select"
                   hidden
@@ -86,7 +88,7 @@
               <label class="teacher-select__label">
                 Artem
                 <input
-                  class="radio-input"
+                  class="radio-input js-contact-radio"
                   type="radio"
                   name="teacher-select"
                   hidden
@@ -96,7 +98,7 @@
               <label class="teacher-select__label">
                 Ilona
                 <input
-                  class="radio-input"
+                  class="radio-input js-contact-radio"
                   type="radio"
                   name="teacher-select"
                   hidden
@@ -106,7 +108,7 @@
               <label class="teacher-select__label">
                 Volodymyr
                 <input
-                  class="radio-input"
+                  class="radio-input js-contact-radio"
                   type="radio"
                   name="teacher-select"
                   hidden
@@ -118,6 +120,7 @@
           <button
             class="button contact-form__submit js-contact-form-submit"
             type="submit"
+            disabled
           >
             Send
           </button>

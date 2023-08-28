@@ -122,6 +122,10 @@
   margin-bottom: 14px;
 }
 
+.contact-form__submit:disabled {
+  background-color: #d4fde1;
+}
+
 .contact-form__policy {
   font-size: 14px;
   line-height: 1.71;
