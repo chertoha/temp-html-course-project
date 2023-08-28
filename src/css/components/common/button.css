@@ -7,6 +7,8 @@
   border: none;
   border-radius: 12px;
   background-color: var(--accent);
+
+  transition: background-color 250ms ease-in-out;
 }
 
 .button:hover,

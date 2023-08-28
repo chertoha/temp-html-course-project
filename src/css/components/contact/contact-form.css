@@ -17,6 +17,7 @@
   display: block;
   width: 100%;
   padding: 16px 18px;
+  line-height: 1.5;
   border: 1px solid rgba(18, 20, 23, 0.1);
   border-radius: 12px;
 }
@@ -33,7 +34,7 @@
   position: absolute;
   top: 0;
   left: 18px;
-  transform: translateY(12px);
+  transform: translateY(17px);
 
   font-size: 16px;
   background-color: #ffffff;
