@@ -1,0 +1,15 @@
+.button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.56;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 12px;
+  background-color: var(--accent);
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--accent-hovered);
+}

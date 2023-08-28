@@ -1,0 +1,72 @@
+:root {
+  /*Breakpoints*/
+  --mobile: 375px;
+  --tablet: 768px;
+  --desktop: 1280px;
+
+  /* Colors */
+  --accent: #4dc274;
+  --accent-hovered: #38ae5f;
+  --primary-text-color: #121417;
+  --secondary-text-color: rgba(18, 20, 23, 0.5);
+
+  /* Radii */
+  --default-border-radius: 30px;
+}
+
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--primary-text-color);
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
