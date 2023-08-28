@@ -101,6 +101,7 @@
 .contact-form__field--area {
   height: 104px;
   resize: none;
+  overflow-y: auto;
 }
 
 .contact-form__teachers {
