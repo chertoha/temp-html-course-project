@@ -46,15 +46,40 @@
   outline: 1px solid var(--accent);
 }
 
-.contact-form__field:invalid {
-  /* outline: 1px solid #ee323d; */
+.contact-form__field.required:invalid {
+  outline: 1px solid #ee323d;
 }
 
-.contact-form__field:not(:placeholder-shown):not(:focus):invalid
+.contact-form__error-icon {
+  display: none;
+}
+
+.contact-form__field.required:invalid ~ .contact-form__error-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ee323d;
+  font-weight: 700;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 23px;
+  height: 23px;
+
+  transform: translateY(-50%);
+
+  border: 2px solid #ee323d;
+  border-radius: 50%;
+}
+
+.contact-form__field.required:not(:placeholder-shown):not(:focus):invalid
   ~ .contact-form__label,
-.contact-form__field:invalid ~ .contact-form__label,
-.contact-form__field:focus:invalid ~ .contact-form__label {
-  /* color: #ee323d; */
+.contact-form__field.required:invalid ~ .contact-form__label,
+.contact-form__field.required:focus:invalid ~ .contact-form__label,
+.contact-form__field.required:focus-visible:invalid ~ .contact-form__label {
+  color: #ee323d;
 }
 
 .contact-form__field:focus ~ .contact-form__label,

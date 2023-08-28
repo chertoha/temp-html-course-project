@@ -23,18 +23,19 @@
             <div class="contact-form__field-wrapper">
               <input
                 id="contact-name"
-                class="contact-form__field"
+                class="contact-form__field js-required-field"
                 type="text"
                 placeholder="Name"
                 required
               />
               <label class="contact-form__label" for="contact-name">Name</label>
+              <span class="contact-form__error-icon">!</span>
             </div>
 
             <div class="contact-form__field-wrapper">
               <input
                 id="contact-email"
-                class="contact-form__field"
+                class="contact-form__field js-required-field"
                 type="email"
                 placeholder="Email"
                 required
@@ -42,17 +43,19 @@
               <label class="contact-form__label" for="contact-email"
                 >Email</label
               >
+              <span class="contact-form__error-icon">!</span>
             </div>
 
             <div class="contact-form__field-wrapper">
               <input
                 id="contact-tel"
-                class="contact-form__field"
+                class="contact-form__field js-required-field"
                 type="tel"
                 placeholder="Phone"
                 required
               />
               <label class="contact-form__label" for="contact-tel">Phone</label>
+              <span class="contact-form__error-icon">!</span>
             </div>
 
             <div class="contact-form__field-wrapper">
@@ -66,6 +69,7 @@
               >
             </div>
           </div>
+
           <div class="contact-form__teachers">
             <h4 class="contact-form__subtitle">Choose a teacher</h4>
             <div class="contact-form__select-group teacher-select">
@@ -111,7 +115,10 @@
               </label>
             </div>
           </div>
-          <button class="button contact-form__submit" type="submit">
+          <button
+            class="button contact-form__submit js-contact-form-submit"
+            type="submit"
+          >
             Send
           </button>
           <p class="contact-form__policy">
