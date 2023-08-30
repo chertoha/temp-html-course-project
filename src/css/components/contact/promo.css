@@ -32,7 +32,8 @@
   transform: translateX(-50%);
 
   /* background-color: tomato; */
-  background-image: url(../images/contact/contact-bgd-image@1x.jpg);
+  /* background-image: url('../images/contact/contact-bgd-image@1x.jpg'); */
+  background-image: url('../../../images/contact/contact-bgd-image@1x.jpg');
   background-size: 596px 536px;
 
   border-radius: 298px / 268px;
@@ -42,7 +43,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .promo__thumb::after {
-    background-image: url(../images/contact/contact-bgd-image@2x.jpg);
+    background-image: url('../../../images/contact/contact-bgd-image@2x.jpg');
   }
 }
 
