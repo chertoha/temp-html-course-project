@@ -18,6 +18,7 @@
   /* width: 596px; */
   /* height: 536px; */
   /* background-color: blue; */
+  background-image: url('../images/contact/contact-bgd-image@1x.jpg');
 }
 
 .promo__thumb::after {
@@ -32,7 +33,7 @@
   transform: translateX(-50%);
 
   /* background-color: tomato; */
-  background-image: url('../images/contact/contact-bgd-image@1x.jpg');
+  /* background-image: url('../images/contact/contact-bgd-image@1x.jpg'); */
   background-size: 596px 536px;
 
   border-radius: 298px / 268px;
